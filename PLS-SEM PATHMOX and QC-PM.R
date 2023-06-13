@@ -1,4 +1,5 @@
-##Paper one/ PLSPM AND PATHMOX
+##Paper four/ PLS-SEM PATHMOX TREE 
+##AND QUANTILE COMPOSITE BASED PATHMODELING 
 Hybrid <- read_csv("C:/Users/bwabo/OneDrive/Desktop/Ph.D. Thesis/Quantile PLSPM/Hybrid.csv")
 Pathmox=Hybrid
 summary(Pathmox)
