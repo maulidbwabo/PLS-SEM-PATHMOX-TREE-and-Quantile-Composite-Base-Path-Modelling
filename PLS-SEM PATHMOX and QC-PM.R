@@ -484,20 +484,4 @@ bar_terminal(csi.pathmox.age, .LV = "SAT")
 bar_terminal(csi.pathmox.age, .LV = "SAT", .bycoef = TRUE)
 ## End(Not run)
 
-# define inner model matrix
-IMAG = c(0,0,0,0,0,0)
-EXPE = c(1,0,0,0,0,0)
-QUAL = c(0,1,0,0,0,0)
-VAL = c(0,1,1,0,0,0)
-SAT = c(1,1,1,1,0,0)
-LOY = c(1,0,0,0,1,0)
-sat_path = rbind(IMAG, EXPE, QUAL, VAL, SAT, LOY)
-# define outer model list
-sat_blocks = list(1:5, 6:10, 11:15, 16:19, 20:23, 24:27)
-# define vector of reflective modes
-sat_modes = rep("A", 6)
-# apply plspm
-my_pls = plspm(satisfaction, sat_path, sat_blocks, modes = sat_modes,
-               scaled=FALSE)
-my_pls
-summary(my_pls)
+
