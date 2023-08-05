@@ -1,10 +1,11 @@
-# PLS-SEM-PATHMOX-TREE-and-Quantile-Composite-Base-Path-Modelling
-The recent development in PLS-PM approach 
-The paper initially conducted the observed heterogenity analysis looking at the social demographic variables such as, the education level, occupance level and firm size.
-The above social demographic factors have been converted into factors to fit the requiarement of the PATHMOX TREE model
-First, the paper built the normal PLS-PM model using the five constructs, sensing capability, knowledge sharing, managerial cognitive capabilities, agility and sustainable performance. The paper set out the construct as the reflective indicators.
-Afterwards, the paper layout the PATHMOX TREE to examined the effects of social demographic variable in the above constructed  model to navigate how the  variables moderate the relationship between knowledge sharing, sensing capability, managerial cognitive capabilities, agility and sustainable performance.
-Then, the other paper used the recent developed approach inspired  by DAVINO 2022(Quantile Composite Based Path Modeling)
-Therefore, the paper used the lavaan package to build the model using five construts that mentioned above
-Having constructed the model, the paper run the bootstrapps to validate loadings and coefficients in each quantiles
-The paper reveal strong and weak coefficients between dynamic capability dimensions and sustainable performance across the quantiles. For that reason, the paper demonstrated the existance of the performance differentials of the Tanzanian dairy microfirm. 
+# PLS-SEM-PATHMOX-TREE-and-Quantile-Composite-Base-Path-Modelling (QC-PM)
+The recent development in the PLS-PM approach (PATHMOX TREE and QAUNTILE COMPOSITE  BASED- PATHMODELING)
+The first analysis keenly described the effects of the observed heterogeneity analysis by looking at the social demographic variables such as education level, occupancy level and firm size. For the later cases, the analysis made a deep dive into the heterogeneous analysis of dimensions of dynamic capabilities on sustainable performance. For that reason, it deployed the unique approach called QC-PM that has been developed recently (Davino, Dolce, Taralli and Vistocco, 2020). 
+# PLS-SEM-PATHMOX TREE (observed heterogeneity)
+The paper utilizes social demographic factors that have been converted into factors to fit the requirements of the PATHMOX TREE model (Lamberti, 2022). Thus, the paper built the normal PLS-PM model using the five constructs, sensing capability, knowledge sharing, managerial cognitive capabilities, agility and sustainable performance. The paper set out the construct as the reflective indicators.
+Afterwards, the paper layout the PATHMOX TREE to examine the effects of social demographic variables in the above-constructed  model to navigate how the  variables moderate the relationship between knowledge sharing, sensing capability, managerial cognitive capabilities, agility and sustainable performance.
+# QC-PM (Heterogeneity analysis)
+Then, the other paper used the recently developed approach inspired  by DAVINO et al 2020 (QC-PM). The paper initially built the normal PLS-PM model following the conceptual framework and developed hypotheses, and then, we built the QC-PM. The objective is to compare the two models to discover if a significant difference in the relationship between the dimensions of dynamic capabilities and sustainable performance does exist between managers and employees. 
+Therefore, the paper used the lavaan package to build the model using the five latent constructs mentioned above.
+Having constructed the model, the paper runs the bootstrapped to validate loadings and coefficients in each quantile.
+The paper reveals strong and weak coefficients between dynamic capability dimensions and sustainable performance across the quantiles. For that reason, the paper demonstrated the existence of the performance differentials of the Tanzanian dairy microfirm. 
